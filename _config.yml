@@ -1,73 +1,51 @@
-title: "Girish Raghav"
-email: "girish.raghav2004@gmail.com"
-description: "AI Enthusiast | Dev | Anime & Manga Lover"
-baseurl: "" 
-url: "https://wreckage0907.github.io"
+# Site settings
+title: My GitHub Portfolio
+description: A minimalistic dark-themed portfolio page showcasing my GitHub stats and tech stack.
+url: "https://yourusername.github.io"  # Replace with your actual GitHub Pages URL
+baseurl: "/"
+
+# Theme settings
+theme: minima  # You can change this to a different theme if needed, like jekyll-theme-slate
 
 # Build settings
 markdown: kramdown
-theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+highlighter: rouge
 
-# Set skin (dark mode)
-minimal_mistakes_skin: "dark"
+# Sass settings
+sass:
+  style: compressed
 
-# Author info
-author:
-  name   : "Girish Raghav"
-  avatar : "/assets/images/profile.jpg"
-  bio    : "🌱 Learning AI Agents & MCP | ⚡ Anime nerd | 📫 girish.raghav2004@gmail.com"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/girish-raghav-m"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/wreckage0907"
-
-# Navigation (top menu)
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Blog"
-    url: "/blog/"
-  - title: "Contact"
-    url: "/contact/"
-
-# Social sharing
-social:
-  type: "Person"
-  links:
-    - "https://github.com/wreckage0907"
-    - "https://linkedin.com/in/girish-raghav-m"
-
-# Exclude these files from the build
+# Exclude files from the build
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - README.md
+  - LICENSE
 
-# Defaults for pages
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      author_profile: true
+# Navigation settings (optional)
+nav:
+  - Home: /
+
+# Social links (optional)
+social_links:
+  - { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/girish-raghav-m" }
+  - { name: "GitHub", icon: "github", url: "https://github.com/wreckage0907" }
+
+# GitHub Pages configuration
+github_pages:
+  remote_theme: "pages-themes/minima@v0.2.0"  # You can change the theme here if you choose another
+
+# Google Analytics or other tracking services (optional)
+# google_analytics: UA-XXXXXX-X
+
+# Plugins (optional)
+plugins:
+  - jekyll-seo-tag  # For SEO optimizations
+  - jekyll-feed  # For RSS feed
+
+# Permalink settings (optional)
+permalink: pretty
+
+# Author Information
+author:
+  name: Girish Raghav
+  email: girish.raghav2004@gmail.com
+  twitter: "@your_twitter_handle"  # Optional

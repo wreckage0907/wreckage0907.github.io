@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
----
+--- 
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=wreckage0907&theme=radical&no-frame=false&no-bg=true&margin-w=4)
@@ -31,5 +31,3 @@ title: Home
 
 
 
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

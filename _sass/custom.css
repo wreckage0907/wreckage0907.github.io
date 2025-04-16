@@ -1,0 +1,14 @@
+/* _sass/custom.scss */
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  a {
+    color: #4fc1e2;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #fff;
+  }
+  
