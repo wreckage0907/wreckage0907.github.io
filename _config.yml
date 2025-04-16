@@ -1,11 +1,11 @@
 # Site settings
 title: My GitHub Portfolio
 description: A minimalistic dark-themed portfolio page showcasing my GitHub stats and tech stack.
-url: "https://yourusername.github.io"  # Replace with your actual GitHub Pages URL
+url: "https://wreckage0907.github.io"  # Replace with your actual GitHub Pages URL
 baseurl: "/"
 
-# Theme settings
-theme: minima  # You can change this to a different theme if needed, like jekyll-theme-slate
+remote_theme: pages-themes/hacker@v0.2.0
+ # add this line to the plugins list if you already have one
 
 # Build settings
 markdown: kramdown
@@ -29,23 +29,11 @@ social_links:
   - { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/girish-raghav-m" }
   - { name: "GitHub", icon: "github", url: "https://github.com/wreckage0907" }
 
-# GitHub Pages configuration
-github_pages:
-  remote_theme: "pages-themes/minima@v0.2.0"  # You can change the theme here if you choose another
 
-# Google Analytics or other tracking services (optional)
-# google_analytics: UA-XXXXXX-X
 
 # Plugins (optional)
 plugins:
   - jekyll-seo-tag  # For SEO optimizations
-  - jekyll-feed  # For RSS feed
+  - jekyll-feed 
+  - jekyll-remote-theme # For RSS feed
 
-# Permalink settings (optional)
-permalink: pretty
-
-# Author Information
-author:
-  name: Girish Raghav
-  email: girish.raghav2004@gmail.com
-  twitter: "@your_twitter_handle"  # Optional
