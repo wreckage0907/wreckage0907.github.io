@@ -1,2 +1,73 @@
-title: Portfolio
-theme: jekyll-theme-slate
+title: "Girish Raghav"
+email: "girish.raghav2004@gmail.com"
+description: "AI Enthusiast | Dev | Anime & Manga Lover"
+baseurl: "" 
+url: "https://wreckage0907.github.io"
+
+# Build settings
+markdown: kramdown
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Set skin (dark mode)
+minimal_mistakes_skin: "dark"
+
+# Author info
+author:
+  name   : "Girish Raghav"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "🌱 Learning AI Agents & MCP | ⚡ Anime nerd | 📫 girish.raghav2004@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/girish-raghav-m"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/wreckage0907"
+
+# Navigation (top menu)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social sharing
+social:
+  type: "Person"
+  links:
+    - "https://github.com/wreckage0907"
+    - "https://linkedin.com/in/girish-raghav-m"
+
+# Exclude these files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
