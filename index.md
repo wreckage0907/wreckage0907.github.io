@@ -75,7 +75,7 @@ girish  0001    6m      Backend Engineering Intern @ ProWiz Analytics (Nov 2024 
     <img src="cyberstrike.png" alt="CyberStrike AI Preview" class="project-image">
     <p>A cutting-edge multi-agent system that leverages Retrieval-Augmented Generation to automate cybersecurity audit analysis. The platform extracts insights from unstructured security reports to identify vulnerabilities and provide actionable recommendations.</p>
     <div class="project-links">
-      <a href="https://github.com/sr2echa/CyberStrike" class="btn">View on GitHub</a>
+      <a href="https://github.com/sr2echa/CyberStrike" class="btna">View on GitHub</a>
     </div>
   </div>
 
@@ -85,7 +85,7 @@ girish  0001    6m      Backend Engineering Intern @ ProWiz Analytics (Nov 2024 
     <img src="penny.png" alt="Penny App Preview" class="project-image">
     <p>An AI-powered personal finance application that helps users track spending, provides financial insights, and offers investment guidance through an intelligent chatbot interface built with Gemini API.</p>
     <div class="project-links">
-      <a href="https://github.com/wreckage0907/Penny" class="btn">View on GitHub</a>
+      <a href="https://github.com/wreckage0907/Penny" class="btna">View on GitHub</a>
     </div>
   </div>
 </div>
@@ -275,7 +275,7 @@ Issued: July 2023
   border: 1px solid #333;
 }
 
-.btn {
+.btna {
   display: inline-block;
   background: #0c0;
   color: #000;
