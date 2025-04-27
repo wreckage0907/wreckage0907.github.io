@@ -173,16 +173,6 @@ Issued: July 2023
     <span class="prompt-user">girish@developer</span>:<span class="prompt-location">~/portfolio</span>$ <span class="prompt-cursor">█</span>
   </div>
   
-  <div class="contact-section">
-    <h2>Contact Information</h2>
-    <ul>
-      <li><strong>Email:</strong> <a href="mailto:girish.raghav2004@gmail.com">girish.raghav2004@gmail.com</a></li>
-      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/girish-raghav-m/">linkedin.com/in/girish-raghav-m/</a></li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/wreckage0907">github.com/wreckage0907</a></li>
-      <li><strong>Phone:</strong> +91 94454 61245</li>
-    </ul>
-  </div>
-  
   <p class="copyright">© 2025 Girish Raghav M. All rights reserved.</p>
 </footer>
 
@@ -304,19 +294,6 @@ Issued: July 2023
 
 .prompt-cursor {
   animation: blink 1s step-end infinite;
-}
-
-.contact-section {
-  margin-top: 20px;
-}
-
-.contact-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.contact-section li {
-  margin-bottom: 5px;
 }
 
 .copyright {
