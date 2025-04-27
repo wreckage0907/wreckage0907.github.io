@@ -285,6 +285,9 @@ Issued: July 2023
   font-weight: bold;
   margin-top: 10px;
 }
+.btna a:hover {
+  text-decoration: underline;
+}
 
 .terminal-prompt {
   font-family: monospace;
