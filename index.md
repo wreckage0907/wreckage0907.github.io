@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: HOME
 ---
 
 <div class="header-container">
