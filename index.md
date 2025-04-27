@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Girish Raghav M | Developer Portfolio
+title: 
 ---
 
 <div class="header-container">
