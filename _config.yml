@@ -1,31 +1,21 @@
 # Site settings
-title: My GitHub Portfolio
-description: A minimalistic dark-themed portfolio page showcasing my GitHub stats and tech stack.
+title: Portfolio
+description: .
 url: "https://wreckage0907.github.io"
 baseurl: ""
 
 # Theme settings
-remote_theme: pages-themes/hacker@v0.2.0  # Good choice — Hacker is a clean dark theme
-
+remote_theme: pages-themes/hacker@v0.2.0  
 # Build settings
 markdown: kramdown
 highlighter: rouge
 
-# Sass settings (though Hacker doesn’t rely on Sass, this is fine if you add custom styles later)
-sass:
-  style: compressed
 
 # Exclude files from the build
 exclude:
   - README.md
   - LICENSE
 
-# Navigation settings (optional — but note: minima and some other themes use this; Hacker does not natively)
-# If you want this working, you'd need to customize layouts
-# nav:
-#   - Home: /
-
-# Social links (not native to Hacker — only useful if you implement custom layout or partials)
 social_links:
   - { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/girish-raghav-m" }
   - { name: "GitHub", icon: "github", url: "https://github.com/wreckage0907" }
