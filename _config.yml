@@ -1,27 +1,30 @@
 # Site settings
-title: Portfolio
-description: .
+title: Girish Raghav M | Portfolio
+description: Minimalistic Portfolio to showcase my skills and project
 url: "https://wreckage0907.github.io"
 baseurl: ""
 
 # Theme settings
-remote_theme: pages-themes/hacker@v0.2.0  
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme  # For using remote themes
+  - jekyll-seo-tag       # For SEO
+  - jekyll-feed          # For RSS feed
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
+# Social links
+social_links:
+  - { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/girish-raghav-m" }
+  - { name: "GitHub", icon: "github", url: "https://github.com/wreckage0907" }
+  - { name: "Email", icon: "envelope", url: "mailto:girish.raghav2004@gmail.com" }
 
 # Exclude files from the build
 exclude:
   - README.md
   - LICENSE
-
-social_links:
-  - { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/girish-raghav-m" }
-  - { name: "GitHub", icon: "github", url: "https://github.com/wreckage0907" }
-
-# Plugins
-plugins:
-  - jekyll-seo-tag       # For SEO
-  - jekyll-feed          # For RSS feed
-  - jekyll-remote-theme  # This enables the remote_theme to work on GitHub Pages
